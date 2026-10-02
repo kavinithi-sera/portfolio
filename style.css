@@ -149,6 +149,7 @@ a:hover {
 section {
     padding-top: 4vh;
     height: 96vh;
+    max-height: 100%;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -223,7 +224,7 @@ section {
     font-weight: 600;
     transition: all 0.3s ease;
     padding: 1rem;
-    width: 8 rem;
+    width: 8rem;
     border-radius: 2rem;
 }
 
@@ -266,6 +267,8 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    max-height: 100%;
+    overflow-y: auto;
 }
 
 .about-details-container {
@@ -308,6 +311,31 @@ section {
     margin: auto 0;
 }
 
+/* CLICKABLE CARD STYLES */
+
+.clickable-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clickable-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit; /* Preserves existing text colors */
+}
+
+.card-link:hover {
+    text-decoration: none; /* Prevents text underlining on hover */
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -325,6 +353,26 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+/* EXPERIENCE CUSTOM STYLES */
+
+#experience .experience-sub-title {
+    margin-bottom: 0.5rem;
+}
+
+.experience-company {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.experience-list {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: rgb(85, 85, 85);
+    padding-left: 1.5rem; /* Ensures bullet points align cleanly */
 }
 
 .article-container {
@@ -372,6 +420,45 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+/* EDUCATION SECTION STYLES */
+
+.education-institution {
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+    margin: 0.5rem 0;
+}
+
+.education-details {
+    color: rgb(85, 85, 85);
+    line-height: 1.5;
+}
+
+/* LEADERSHIP & ACTIVITIES SECTION STYLES */
+
+.activity-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.activity-list li {
+    margin-bottom: 1.2rem;
+    line-height: 1.4;
+}
+
+.activity-list strong {
+    color: rgb(0, 0, 0);
+    font-size: 1.05rem;
+}
+
+.activity-desc {
+    color: rgb(85, 85, 85);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
 }
 
 /* CONTACT */

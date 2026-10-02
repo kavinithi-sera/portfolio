@@ -14,8 +14,11 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#activities">Activities</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -30,6 +33,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -43,7 +47,7 @@
         <div class="section__text">
             <p class="section__text__p1">Hello! I'm</p>
             <h1 class="title">Kavinithi</h1>
-            <p class="section__text__p2">A passionate web developer.</p>
+            <p class="section__text__p2">AI / GenAI Engineer </p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/KavinithiSera_Resume.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -63,118 +67,57 @@
             </div>
             <div class="about-details-container">
                 <div class="about-container">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-                        <h3>Experience</h3>
-                        <p>2+ years <br/> Frontend Developer</p>
+                    <div class="details-container clickable-card">
+                        <a href="#experience" class="card-link">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                            <h3>Internship</h3>
+                            <br/>
+                            <p><b>Student Intern </b> <br/> Elait IT Technology Services </p>
+                        </a>
                     </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon" />
-                        <h3>Education</h3>
-                        <p>Bachelor of Science in Computer Science <br/> University of Colombo</p>
+                    <div class="details-container clickable-card">
+                        <a href="#education" class="card-link">
+                            <img src="./assets/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <br/>
+                            <p><b>BCA (Honours) </b> <br/> CHRIST University, Bangalore</p>
+                        </a>
                     </div>
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua.
+                        Computer Science undergraduate specializing in AI/Gen AI Engineering, with hands-on experience building NLP pipelines, LLM-integrated applications, and full-stack development.
                     </p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Scroll down icon" class="icon arrow" onclick="location.href='./#experience'" />
+        <img src="./assets/arrow.png" alt="Scroll down icon" class="icon arrow" onclick="location.href='./#skills'" />
     </section>
-    <section id="experience">
+    <section id="skills">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Technical Skills</h1>
         <div class="experience-details-container">
             <div class="about-container">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Developer</h2>
+                    <h2 class="experience-sub-title">AI / ML </h2>
                     <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>JAVA</h3>
-                                <p>Intermediate</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>SQL</h3>
-                                <p>Basic</p>
-                            </div>                            
-                        </article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Python</h3><p>Proficient</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Java / C++</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>NLTK </h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Scikit-Learn</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Flask</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Google Gemini API</h3><p>Proficient</p></div></article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Developer</h2>
+                    <h2 class="experience-sub-title">Web Tech</h2>
                     <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>Gemini</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>NLP</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>AI</h3>
-                                <p>Experienced</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>CV</h3>
-                                <p>Intermediate</p>
-                            </div>                            
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
-                            <div>
-                                <h3>SQL</h3>
-                                <p>Basic</p>
-                            </div>                            
-                        </article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>TypeScript / JavaScript</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Node.js / Express</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Angular </h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>React</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>SQL (MySQL)</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" /><div><h3>Git & Cloud Run</h3><p>Intermediate</p></div></article>
                     </div>
                 </div>
             </div>
@@ -193,7 +136,7 @@
                     <h2 class="experience-sub-title project-title">Wavelength</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kavinithi-sera/wavelength-music-companion')" target="_blank">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/yourusername/demo')" target="_blank">Live Demo</button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.loom.com/share/04b0620537c14176ae305a971c842128')" target="_blank">Demo Video</button>
                     </div>
                 </div>
                 <div class="details-container color-container">
@@ -203,7 +146,7 @@
                     <h2 class="experience-sub-title project-title">Product Auditor</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kavinithi-sera/ecommerce-fraud-product-auditor')" target="_blank">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/yourusername/demo')" target="_blank">Live Demo</button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/yourusername/demo')" target="_blank">Demo Video</button>
                     </div>
                 </div>
                 <div class="details-container color-container">
@@ -213,8 +156,94 @@
                     <h2 class="experience-sub-title project-title">Resume Reviewer</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kavinithi-sera/resume-reviewer-ai')" target="_blank">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/yourusername/demo')" target="_blank">Live Demo</button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.loom.com/share/8bb82a40b38b4fe7bac9867c7e402f56')" target="_blank">Demo Video</button>
                     </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Scroll down icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+    <p class="section__text__p1">My Internship</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-container">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Student Intern</h2>
+                <p class="experience-company">Elait IT Technology Services Pvt. Ltd., Chennai | Apr 2025 – May 2025</p>
+                <ul class="experience-list">
+                    <li>Developed a voice-controlled Point of Sale (POS) proof-of-concept using Angular, TypeScript, Node.js, Express.js, and PostgreSQL, enabling hands-free retail transactions. </li>
+                    <li>Integrated Web Speech API (webkitSpeechRecognition and SpeechSynthesisUtterance) to process 5 categories of voice commands streamlining cart management.</li>
+                    <li>Built RESTful APIs with Node.js and Express.js to manage product data and cart operations, backed by a PostgreSQL database.</li>
+                    <li>Generated automated PDF invoices using pdfMake and delivered real-time feedback via Angular Material's MatSnackBar.</li>
+                    <li>Delivered a functional prototype demonstrating voice-driven retail transactions as a viable alternative to traditional POS systems.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Scroll down icon" class="icon arrow" onclick="location.href='./#education'" />
+    </section>
+    <section id="education">
+        <p class="section__text__p1">My Academic</p>
+        <h1 class="title">Education</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="Education icon" class="icon" />
+                    <h2 class="experience-sub-title">Undergraduation</h2>
+                    <p class="education-institution">CHRIST (Deemed to be University), Bengaluru</p>
+                    <p class="education-details"><b>Bachelor of Computer Applications (Honours)</b></p>
+                    <p class="education-details">July 2024 – May 2028 <br/> GPA: 3.7 / 4.0</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="Education icon" class="icon" />
+                    <h2 class="experience-sub-title">High School (CBSE)</h2>
+                    <p class="education-institution">The PSBB Millennium School, Chennai</p>
+                    <p class="education-details"><b>Class XII:</b> 89.0% (May 2024) <br/> <b>Class X:</b> 97.0% (May 2022)</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Scroll down icon" class="icon arrow" onclick="location.href='./#activities'" />
+    </section>
+    <section id="activities">
+        <p class="section__text__p1">Beyond Academics</p>
+        <h1 class="title">Leadership & Co-Curricular</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Leadership & Roles</h2>
+                    <ul class="activity-list">
+                        <li>
+                            <strong>Overall Head</strong> 
+                            <br/>
+                            <em>AfterHours Productions (Theatre Club), CHRIST University</em>
+                            <p class="activity-desc">Lead a 200+ member team and delivered 10+ live stage performances.</p>
+                            <p class="activity-desc">Managed a diverse team of performers, overseeing talent recruitment, casting, and rehearsals.</p>
+                        </li>
+                        <li>
+                            <strong>Content Creator / Script Writer</strong> 
+                            <br/>
+                            <em>Samagra (Computer Science Association), CHRIST University</em>
+                            <p class="activity-desc">Written and directed 10+ videos for promotional content and promotional campaigns.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Achievements</h2>
+                    <ul class="activity-list">
+                        <li>
+                            <strong>Conference Research Paper Presenter</strong>
+                            <p class="activity-desc">Presented IoT paper <em>"Sustainable Green IoT through Energy Harvesting"</em> at ICAITCA-2026 Conference.</p>
+                        </li>
+                        <li>
+                            <strong>Top 3 Finish</strong>
+                            <p class="activity-desc">Secured Top 3 in the "AI Challenge" category at IESMCRC Ideation Hackathon 2.0.</p>
+                        </li>
+                        <li>
+                            <strong>Hackathons </strong>
+                            <p class="activity-desc">Participated in multiple hackathons and gained practical hands-on experience.</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -239,8 +268,11 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#activities">Activities</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
